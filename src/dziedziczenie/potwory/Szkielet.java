@@ -16,4 +16,9 @@ public class Szkielet extends Potwor {
 	public void atakuj() {
 		System.out.println("ATAK Szkieleta!");
 	}
+
+	@Override
+	void opis() {
+
+	}
 }

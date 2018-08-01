@@ -1,12 +1,17 @@
 package dziedziczenie.potwory;
 
-public class Potwor {
+public abstract class Potwor {
 
 	private double speed = 10;
 	private double zywotnosc;
 
 	public void atakuj() {
 		System.out.println("ATAK!");
+	}
+
+	abstract void opis();
+	{
+
 	}
 
 	public double getSpeed() {
